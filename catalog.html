@@ -6,32 +6,28 @@
   </head>
   <body>
     <header class="main-header">
-      <img class="sedona-logo" src="#" alt="Логотип сайта Седоны.">
+      <img class="sedona-logo" src="images/logo-sedona.svg" width="170" height="140" alt="Логотип сайта Седоны.">
       <nav class="navigation">
         <ul class="navigation-list">
           <li class="navigation-item">
             <a class="navigation-link navigation-link-current" href="index.html">Главная</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="about.html">О Седоне</a>
+            <a class="navigation-link" href="#">О Седоне</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link navigation-link-current" href="catalog.html">Гостиницы</a>
+            <a class="navigation-link" href="catalog.html">Гостиницы</a>
           </li>
         </ul>
         <ul class="navigation-list navigation-user">
           <li class="navigation-item">
-            <a class="navigation-link" href="#">
-              <span class="visually-hidden">
-                Поиск
-              </span>
+            <a class="navigation-link" href="images/search.svg">
+              <img src="images/search.svg" width="44" height="64" alt="Поиск">
             </a>
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#">
-              <span class="visually-hidden">
-                Избранное
-              </span>
+              <img src="images/favorites.svg" width="44" height="64" alt="Избранное">
             </a>
           </li>
           <li class="navigation-item">
@@ -45,11 +41,13 @@
 
     <main class="main-index">
       <header class="inner-header">
-        <img class="catalog-background" src="#" alt="Фоновое изображение.">
+        <img class="catalog-background" src="images/catalog-background.png" width="1200" height="412" alt="Фоновое изображение.">
         <h1 class="inner-header-title">Гостиницы Седоны</h1>
         <ul class="breadcrumbs">
           <li class="breadcrumbs-item">
-            <a class="breadcrumbs-link" href="index.html">Главная</a>
+            <a class="breadcrumbs-link" href="index.html">
+              <img class="breadcrumbs-home" src="images/home.svg" width="13" height="15" alt="На главную.">
+            </a>
           </li>
           <li class="breadcrumbs-item">
             <a class="breadcrumbs-link">Гостиницы</a>
@@ -110,12 +108,15 @@
         </select>
         <a href="#" class="button button-checked">
           <span class="visually-hidden">Показать карточки</span>
+          <img src="images/view-cards.svg" width="48" height="48" alt="Карточки.">
         </a>
         <a class="button" href="#">
           <span class="visually-hidden">Показать на весь экран</span>
+          <img src="images/view-screen.svg" width="48" height="48" alt="На весь экран.">
         </a>
         <a class="button" href="#">
           <span class="visually-hidden">Показать список</span>
+          <img src="images/view-list.svg" width="48" height="48" alt="Список.">
         </a>
       </section>
       <section class="catalog-hotels">
@@ -123,7 +124,7 @@
         <ul class="catalog-hotels-list">
           <li class="hotel-card">
             <a class="hotel-card-link" href="hotel.html">
-              <img class="hotel-card-image" src="#" alt="Фото Amara Resort & Spa">
+              <img class="hotel-card-image" src="images/hotel-1.jpg" alt="Фото Amara Resort & Spa">
               <h3 class="hotel-card-title">Amara Resort & Spa</h3>
             </a>
             <div hotel-card-info>
@@ -135,13 +136,18 @@
               <button class="add-to-favorites active">В ИЗБРАННОЕ</button>
             </div>
             <div class="hotel-card-rating">
-              <img class="hotel-card-stars" src="#" alt="4 звезды">
+              <div class="hotel-card-stars">
+                <img class="hotel-card-star" src="images/rating-star.svg" alt="Звезда.">
+                <img class="hotel-card-star" src="images/rating-star.svg" alt="Звезда.">
+                <img class="hotel-card-star" src="images/rating-star.svg" alt="Звезда.">
+                <img class="hotel-card-star" src="images/rating-star.svg" alt="Звезда.">
+              </div>
               <p class="hotel-card-rating-number">Рейтинг: 8,5</p>
             </div>
           </li>
           <li class="hotel-card">
             <a class="hotel-card-link" href="hotel.html">
-              <img class="hotel-card-image" src="#" alt="Фото Villas at Poco Diablo">
+              <img class="hotel-card-image" src="images/hotel-2.jpg" alt="Фото Villas at Poco Diablo">
               <h3 class="hotel-card-title">Villas at Poco Diablo</h3>
             </a>
             <div hotel-card-info>
@@ -153,13 +159,18 @@
               <button class="add-to-favorites checked">В ИЗБРАННОМ</button>
             </div>
             <div class="hotel-card-rating">
-              <img class="hotel-card-stars" src="#" alt="4 звезды">
+              <div class="hotel-card-stars">
+                <img class="hotel-card-star" src="images/rating-star.svg" alt="Звезда.">
+                <img class="hotel-card-star" src="images/rating-star.svg" alt="Звезда.">
+                <img class="hotel-card-star" src="images/rating-star.svg" alt="Звезда.">
+                <img class="hotel-card-star" src="images/rating-star.svg" alt="Звезда.">
+              </div>
               <p class="hotel-card-rating-number">Рейтинг: 9,2</p>
             </div>
           </li>
           <li class="hotel-card">
             <a class="hotel-card-link" href="hotel.html">
-              <img class="hotel-card-image" src="#" alt="Фото Desert Quail Inn">
+              <img class="hotel-card-image" src="images/hotel-3.jpg" alt="Фото Desert Quail Inn">
               <h3 class="hotel-card-title">Desert Quail Inn</h3>
             </a>
             <div hotel-card-info>
@@ -171,13 +182,17 @@
               <button class="add-to-favorites active">В ИЗБРАННОЕ</button>
             </div>
             <div class="hotel-card-rating">
-              <img class="hotel-card-stars" src="#" alt="3 звезды">
+              <div class="hotel-card-stars">
+                <img class="hotel-card-star" src="images/rating-star.svg" alt="Звезда.">
+                <img class="hotel-card-star" src="images/rating-star.svg" alt="Звезда.">
+                <img class="hotel-card-star" src="images/rating-star.svg" alt="Звезда.">
+              </div>
               <p class="hotel-card-rating-number">Рейтинг: 6,9</p>
             </div>
           </li>
           <li class="hotel-card">
             <a class="hotel-card-link" href="hotel.html">
-              <img class="hotel-card-image" src="#" alt="Фото GreenTree Inn">
+              <img class="hotel-card-image" src="images/hotel-4.jpg" alt="Фото GreenTree Inn">
               <h3 class="hotel-card-title">GreenTree Inn</h3>
             </a>
             <div hotel-card-info>
@@ -189,7 +204,10 @@
               <button class="add-to-favorites active">В ИЗБРАННОЕ</button>
             </div>
             <div class="hotel-card-rating">
-              <img class="hotel-card-stars" src="#" alt="2 звезды">
+              <div class="hotel-card-stars">
+                <img class="hotel-card-star" src="images/rating-star.svg" alt="Звезда.">
+                <img class="hotel-card-star" src="images/rating-star.svg" alt="Звезда.">
+              </div>
               <p class="hotel-card-rating-number">Рейтинг: 5,0</p>
             </div>
           </li>
@@ -222,23 +240,26 @@
       <ul class="footer-social-list">
         <li class="footer-social-item">
           <a class="button" href="#">
+            <img class="htmlacademy-logo" alt="Логотип ВКонтакте." src="images/social-vk.svg" width="48" height="40">
             <span class="visually-hidden">ВКонтакте</span>
           </a>
         </li>
         <li class="footer-social-item">
           <a class="button" href="#">
+            <img class="htmlacademy-logo" alt="Логотип Telegram." src="images/social-telegram.svg" width="48" height="40">
             <span class="visually-hidden">Telegram</span>
           </a>
         </li>
         <li class="footer-social-item">
           <a class="button" href="#">
+            <img class="htmlacademy-logo" alt="Логотип YouTube." src="images/social-youtube.svg" width="48" height="40">
             <span class="visually-hidden">YouTube</span>
           </a>
         </li>
       </ul>
       <p class="footer-telephone">+7 (812) 812-12-12</p>
       <a class="navigation-logo" href="https://htmlacademy.ru/">
-        <img class="htmlacademy-logo" alt="Логотип HTML Academy." src="#">
+        <img class="htmlacademy-logo" alt="Логотип HTML Academy." src="images/logo-htmlacademy.svg" width="115" height="33">
       </a>
     </footer>
 
